@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html"> Introduction </a></li>
+        <li><a href="meme.html"> Meme </a></li>
+        <li><a href="visualization.html">Visualization</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>
+        Interesting Visualization
+    </h1>
+</header>
+
+<div class="container">
+    <h1> Georgia Department of Public Health Daily Status Report of COVID-19 </h1>
+
+    <img id="vis_img"
+         src="assest/images/vis_img.png"
+         alt=""
+         onclick="changeIntroImage()">
+
+    <p>
+        The purpose of this visualization is to show statistics related to the COVID-19 pandemic in the State of Georgia.
+        This visualization is created in order to inform the public about the severity of the ongoing pandemic and help officials understand how their community is being affected so that they can shape policies to curb the spread of the coronavirus.
+        The theme and color scheme stays consistent throughout the visualization.
+        For example, the color for females is always red and for males is always blue.
+        The interface also supports visualization for people who are Green-ColorBlind or have Deuteronomy.
+        This is a good thing as it considers people with certain disabilities to have access to the data and does not restrict them from any information.
+        The line graph for COVID over time makes looking at the data more pleasing as it gives the gist of the trend without looking at each bar closely.
+        For different counties on the line graph, there are different colors used with legends.
+        When a user hovers over the legends that pacific set of data is highlighted.
+        For any of the data formats except for tables, users can hover over a bar for a bar chart,
+        a portion of the pie for a pie chart,
+        and a line point in a line graph to get more details information.
+        This is a helpful feature for anyone who would like to go dig deeper into COVID-19 in Georgia.
+        Here is the link to the
+        <a href="https://dph.georgia.gov/covid-19-daily-status-report">visualization</a>
+         and <a href="https://ga-covid19.ondemand.sas.com/docs/ga_covid_data.zip">data source</a>.
+    </p>
+
+</div>
+
+<div class="container">
+    <h1> Why this color scheme for the website I am creating? </h1>
+    <p>
+        After discussing what I liked about the visualization shown above I would like to discuss the reasoning behind choosing this color scheme for my website.
+        Creating color scheme that creates high contrast makes it more readable and I believe that adding colors don't add anymore dimensions to the information.
+        Therefore, I have created a basic black and white theme for this website.
+    </p>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
