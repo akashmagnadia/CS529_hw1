@@ -93,10 +93,10 @@ function makeCircleSlide() {
     slidingCircle = true;
     circleIntervalSlide = setInterval(() => {
         $('#meme_window_2').animate({"margin-right": '-=300'});
-        $('#circle2 circle').css({fill: "green", transition: "0.5s"});
+        $('#square rect').css({fill: "green", transition: "0.5s"});
         setTimeout(function(){
             $('#meme_window_2').animate({"margin-right": '+=300'});
-            $('#circle2 circle').css({fill: "red", transition: "0.5s"});
+            $('#square rect').css({fill: "red", transition: "0.5s"});
         }, 500);
 
     }, 1000);
@@ -120,11 +120,11 @@ function expandCircle() {
 function makeCircleExpand() {
     expandingCircle = true;
     circleIntervalExpand = setInterval(() => {
-        $('#circle3').animate({"margin-top": '+=200'});
-        $('#circle3 circle').css({fill: "green", transition: "0.5s"});
+        $('#rectangle').animate({"margin-top": '+=200'});
+        $('#rectangle rect').css({fill: "green", transition: "0.5s"});
         setTimeout(function(){
-            $('#circle3').animate({"margin-top": '-=200'});
-            $('#circle3 circle').css({fill: "yellow", transition: "0.5s"});
+            $('#rectangle').animate({"margin-top": '-=200'});
+            $('#rectangle rect').css({fill: "yellow", transition: "0.5s"});
         }, 500);
 
     }, 1000);
